@@ -40,6 +40,7 @@ html {
 
 .btn-ghost {
     background-color: transparent;
+    color: #27ae60;
 }
 
 .btn:active, 
@@ -68,9 +69,11 @@ header h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: white;
-    font-size: 240%;
+    font-size: 220%;
     font-weight: 300;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 .hero-text-box {
     position: absolute;
@@ -79,3 +82,34 @@ header h1 {
     transform: translate(-50%, -50%);
 }
 
+.logo {
+    filter: brightness(0) invert(1);
+    width: 100px;
+    margin-top: 20px;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 8px;
+    font-size: 80%;
+    transition: 0.2s;
+    letter-spacing: 1px;
+}
+
+.main-nav li a:active,
+.main-nav li a:hover {
+    border-bottom: 2px solid #27ae60;
+}
