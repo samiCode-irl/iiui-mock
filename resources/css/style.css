@@ -1,6 +1,8 @@
 /* --------------------------------------------------------- */
 /* BASIC SETUP */
 /* --------------------------------------------------------- */
+/* background-color: #08e1ae;
+background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%); */
 * {
     margin: 0;
     padding: 0;
@@ -58,9 +60,9 @@ html {
 /* --------------------------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0 , 0 ,0.7),rgba(0, 0 , 0 ,0.7)), url(/resources/css/img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0 , 0 ,0.7),rgba(0, 0 , 0 ,0.7)), url(/resources/css/img/backdrop.jpg);
     height: 100vh;
-    background-position: top center; 
+    background-position: 40% 40%;
     background-repeat: no-repeat; 
     background-size: cover; 
 }
