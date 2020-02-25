@@ -55,6 +55,27 @@ html {
 .btn-ghost:active {
     color: white;
 }
+
+/* -----PARAGRAPH----- */
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section .row {
+    margin-top: 20px;
+}
+
 /* --------------------------------------------------------- */
 /* HEADER */
 /* --------------------------------------------------------- */
@@ -67,21 +88,48 @@ header {
     background-size: cover; 
 }
 
-header h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: white;
-    font-size: 220%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-}
 .hero-text-box {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+h1, 
+h2, 
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: #27ae60;
+    width: 100px;
+    content: " ";
+    margin: 30px auto 0 auto;
 }
 
 .logo {
